@@ -528,7 +528,7 @@ section#contact .form-group {
   margin-bottom: 25px
 }
 section#contact .form-group input, section#contact .form-group textarea {
-  padding: 20px
+  padding: 12px;
 }
 section#contact .form-group input.form-control {
   height: auto
@@ -573,9 +573,8 @@ footer {
 }
 footer span.copyright {
   line-height: 40px;
-  font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
-  text-transform: uppercase;
-  text-transform: none
+  font-family: "lantinghei", Helvetica, Arial, sans-serif;
+  color: #848080;
 }
 footer ul.quicklinks {
   margin-bottom: 0;
@@ -589,7 +588,7 @@ ul.social-buttons {
 }
 ul.social-buttons li a {
   display: block;
-  background-color: #222;
+  background-color: #ABA5A5;
   height: 40px;
   width: 40px;
   border-radius: 100%;
@@ -614,15 +613,15 @@ ul.social-buttons li a:hover, ul.social-buttons li a:focus, ul.social-buttons li
   box-shadow: none;
   border: 0;
   min-height: 100%;
-  padding: 100px 0;
+  padding: 20px 0;
+  padding-top: 80px;
   text-align: center
 }
 .portfolio-modal .modal-content h2 {
-  margin-bottom: 15px;
   font-size: 3em
 }
 .portfolio-modal .modal-content p {
-  margin-bottom: 30px
+  /*margin-bottom: 30px*/
 }
 .portfolio-modal .modal-content p.item-intro {
   margin: 20px 0 30px;
@@ -774,25 +773,91 @@ img.img-responsive {
 }
 
 a.btn-join {
-  height: 60px;
-  width: 140px;
   text-decoration: none;
   background-color: #024A02;
   color: white;
   font-size: 21px;
   padding: 10px 50px;
-  position: relative;
-  top: 25px;
 }
 
 section#team {
   background: url(../img/contact/image_map.png)
 }
-
+section#contact {
+  background: url(../img/contact/image_contactus.png)
+}
+.address {
+    padding-top: 16px;
+}
 .address h2 {
   font-family: "lantinghei";
   color: white;
   font-size: 19px;
   font-weight: normal;
   line-height: 0.6;
+}
+@media (max-width:1200px) {
+  .address {
+      text-align: center;
+  }
+  .phone {
+    text-align: center;
+  }
+  .contact-info {
+    text-align: center;
+  }
+  .contact-title {
+    text-align: center;
+  }
+}
+
+.icon-google {
+  background-image: url(../img/logo/icon_bottom_1.png);
+}
+.icon-facebook {
+  background-image: url(../img/logo/icon_bottom_2.png);
+}
+.icon-email {
+  background-image: url(../img/logo/icon_bottom_3.png);
+}
+img.logo-bottom {
+    margin-top: -24px;
+}
+.phone {
+  color: white;
+  font-size: 26px;
+  font-family: "lantinghei";
+}
+.contact-info h2 {
+  font-family: "lantinghei";
+  color: white;
+  font-size: 19px;
+  font-weight: normal;
+  line-height: 0.6;
+}
+.contact-title {
+  font-family: "lantinghei";
+  color: white;
+  font-size: 30px;
+  padding: 20px 0;
+}
+button.btn-send {
+  border-color: darkgray;
+  color: white;
+  font-family: "lantinghei";
+  background-color: rgba(128, 128, 128, 0.22);
+  border: 1px solid;
+  padding: 7px 40px;
+  font-size: 20px;
+}
+@media (min-width:1200px) {
+  button.btn-send {
+    float: right;
+  }
+}
+p.content-padding {
+    padding-bottom: 26px;
+}
+ul.list-service {
+    list-style: none;
 }
