@@ -16,12 +16,12 @@ $(function() {
     });
 
     $(window).scroll(function() {
-      	if (isScrolledIntoView("section#services")) { window.history.pushState("state", "title", "/services"); return; }
-      	if (isScrolledIntoView("section#portfolio")) { window.history.pushState("state", "title", "/portfolio"); return; }
-      	if (isScrolledIntoView("section#partner")) { window.history.pushState("state", "title", "/partner"); return; }
-      	if (isScrolledIntoView("section#about")) { window.history.pushState("state", "title", "/about"); return; }
-        if (isScrolledIntoView("section#team")) { window.history.pushState("state", "title", "/team"); return; }
-        if (isScrolledIntoView("section#contact")) { window.history.pushState("state", "title", "/contact"); return; }
+      	if (isScrolledIntoView("section#services")) { window.history.pushState("state", "title", "hkgreenwoodsd/index.html/services"); return; }
+      	if (isScrolledIntoView("section#portfolio")) { window.history.pushState("state", "title", "hkgreenwoodsd/index.html/portfolio"); return; }
+      	if (isScrolledIntoView("section#partner")) { window.history.pushState("state", "title", "hkgreenwoodsd/index.html/partner"); return; }
+      	if (isScrolledIntoView("section#about")) { window.history.pushState("state", "title", "hkgreenwoodsd/index.html/about"); return; }
+        if (isScrolledIntoView("section#team")) { window.history.pushState("state", "title", "hkgreenwoodsd/index.html/team"); return; }
+        if (isScrolledIntoView("section#contact")) { window.history.pushState("state", "title", "hkgreenwoodsd/index.html/contact"); return; }
     });
 });
 

@@ -572,7 +572,7 @@ footer {
   text-align: center
 }
 footer span.copyright {
-  line-height: 40px;
+  line-height: 32px;
   font-family: "lantinghei", Helvetica, Arial, sans-serif;
   color: #848080;
 }
@@ -761,7 +761,7 @@ strong {
 }
 .about-content {
   font-family: "lantinghei";
-  padding: 20px 70px 0 70px;
+  padding: 20px 40px 0 40px;
 }
 .about-content p {
   font-size: 18px;
@@ -886,14 +886,15 @@ h2.text-date {
     margin-bottom: 10px;
   }
   .about-content p {
-    font-size: 16px;
-    color: #848383;
+    font-family: "lantinghei";
+    font-size: 15px;
+    color: #A0A0A0;
   }
   a.btn-join {
     text-decoration: none;
     background-color: #024A02;
     color: white;
-    font-size: 16px;
+    font-size: 13px;
     padding: 8px 35px;
   }
   .address h2 {
@@ -939,4 +940,23 @@ h2.text-date {
   .portfolio-block {
     display: none;
   }
+  footer span.copyright {
+    line-height: 32px;
+    font-family: "lantinghei", Helvetica, Arial, sans-serif;
+    color: #848080;
+    font-size: 10px;
+  }
+  section#contact .form-group {
+    margin: 0 25px 25px 25px;
+  }
+  .services-row {
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+  .service-content {
+    margin: 0 10px;
+  }
+  .team-font h4 {
+    font-size: 15px;
+}
 }
