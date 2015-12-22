@@ -618,7 +618,7 @@ ul.social-buttons li a:hover, ul.social-buttons li a:focus, ul.social-buttons li
   text-align: center
 }
 .portfolio-modal .modal-content h2 {
-  font-size: 3em
+  font-size: 2em;
 }
 .portfolio-modal .modal-content p {
   /*margin-bottom: 30px*/
@@ -634,7 +634,7 @@ ul.social-buttons li a:hover, ul.social-buttons li a:focus, ul.social-buttons li
   margin-top: 0
 }
 .portfolio-modal .modal-content img {
-  margin-bottom: 30px
+  margin-bottom: 12px;
 }
 .portfolio-modal .close-modal {
   position: absolute;
@@ -737,6 +737,7 @@ a.navbar-brand {
   color: gray;
   font-size: 16px;
   margin: 20px auto;
+  margin-bottom: 5px;
 }
 .btn-more {
   height: 40px;
@@ -745,7 +746,6 @@ a.navbar-brand {
   font-size: 15px;
   padding: 8px 0px;
   margin-top: 7px;
-  margin-left: 30px;
   cursor: pointer;
   border-radius: 4px;
   background-color: #033803;
@@ -763,7 +763,6 @@ strong {
   font-family: "lantinghei";
   padding: 20px 70px 0 70px;
 }
-
 .about-content p {
   font-size: 18px;
   color: #848383;
@@ -771,7 +770,6 @@ strong {
 img.img-responsive {
   margin: auto auto;
 }
-
 a.btn-join {
   text-decoration: none;
   background-color: #024A02;
@@ -779,7 +777,6 @@ a.btn-join {
   font-size: 21px;
   padding: 10px 50px;
 }
-
 section#team {
   background: url(../img/contact/image_map.png)
 }
@@ -787,7 +784,7 @@ section#contact {
   background: url(../img/contact/image_contactus.png)
 }
 .address {
-    padding-top: 16px;
+  padding-top: 16px;
 }
 .address h2 {
   font-family: "lantinghei";
@@ -798,7 +795,7 @@ section#contact {
 }
 @media (max-width:1200px) {
   .address {
-      text-align: center;
+    text-align: center;
   }
   .phone {
     text-align: center;
@@ -810,7 +807,6 @@ section#contact {
     text-align: center;
   }
 }
-
 .icon-google {
   background-image: url(../img/logo/icon_bottom_1.png);
 }
@@ -821,7 +817,7 @@ section#contact {
   background-image: url(../img/logo/icon_bottom_3.png);
 }
 img.logo-bottom {
-    margin-top: -24px;
+  margin-top: -24px;
 }
 .phone {
   color: white;
@@ -856,8 +852,91 @@ button.btn-send {
   }
 }
 p.content-padding {
-    padding-bottom: 26px;
+  padding-bottom: 26px;
 }
 ul.list-service {
-    list-style: none;
+  list-style: none;
+}
+h2.text-date {
+  margin: 3px 0;
+}
+.portfolio-block {
+  display: block;
+}
+@media (max-width:768px) {
+  a.navbar-brand {
+    background: url(../img/logo/logo.png) no-repeat center;
+    width: 222px;
+    height: 46px;
+    background-size: contain;
+  }
+  .section-padding {
+    padding: 10px 0;
+  }
+  .h1, h1 {
+    font-size: 21px;
+  }
+  section h3.section-subheading {
+    font-size: 18px;
+    font-family: "KozGoPr6N-Light";
+    margin-bottom: 32px;
+  }
+  .h1, .h2, .h3, h1, h2, h3 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .about-content p {
+    font-size: 16px;
+    color: #848383;
+  }
+  a.btn-join {
+    text-decoration: none;
+    background-color: #024A02;
+    color: white;
+    font-size: 16px;
+    padding: 8px 35px;
+  }
+  .address h2 {
+    font-family: "lantinghei";
+    color: white;
+    font-size: 15px;
+    font-weight: normal;
+    line-height: 1.2;
+  }
+  .contact-info h2 {
+    font-family: "lantinghei";
+    color: white;
+    font-size: 15px;
+    font-weight: normal;
+    line-height: 1.2;
+  }
+  .contact-title {
+    font-family: "lantinghei";
+    color: white;
+    font-size: 22px;
+    padding: 20px 0;
+  }
+  .portfolio-modal .modal-content h2 {
+    font-size: 1.5em;
+  }
+  .portfolio-caption h4 {
+    font-family: "PTSans";
+    font-size: 14px;
+  }
+  .btn-more {
+    height: 31px;
+    width: 125px;
+    color: white;
+    font-size: 13px;
+    padding: 7px 0;
+    margin-top: 6px;
+    cursor: pointer;
+    border-radius: 4px;
+    background-color: #033803;
+    text-align: center;
+    text-decoration: none;
+  }
+  .portfolio-block {
+    display: none;
+  }
 }
