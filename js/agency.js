@@ -42,6 +42,3 @@ $(function() {
 function addHistoryState(title, url, endpoint) {
   window.history.pushState({title: title}, title, url+endpoint);
 }
-
-
-
